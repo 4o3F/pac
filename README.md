@@ -17,6 +17,8 @@ PAC scripts for proxies
 - `pac-<name>.txt` 包含从数据源 `<name>` 获取的 IP 地址列表（白名单）
 - `pac-gfwlist-<name>.txt` 在 IP 白名单的基础上添加了 GFWList 的匹配
 
+#### 例如 `https://github.com/CatMoe/pac/releases/latest/download/pac-gfwlist-17mon.txt`
+
 本代码是为 Shadowsocks Windows 4.1.9 及以上版本设计的，若要在旧版本或使用其他代理软件中使用，请手动修改文件第 5 行 `__PROXY__` 为你的代理地址，详情见 [shadowsocks-windows#2761](https://github.com/shadowsocks/shadowsocks-windows/issues/2761)。
 
 ## 贡献
